@@ -1,0 +1,108 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: url('./images/aqf-core-background.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+  
+}
+.logo{
+    margin-right: 8px;
+    width: 148px;
+    margin-top: 10px;
+    margin-left: 38px;
+}
+
+nav{
+    padding: 30px 6%;
+    background-color: #0047ba;
+    color: white;
+    display: flex;
+    
+}
+
+nav ul {
+    display: flex;
+    gap: 52px  ;
+    align-items: center;
+    margin-top: -2px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 8%;
+    white-space: nowrap;
+    margin-left: 7%;
+    margin-top: 4%;
+}
+.button-small{
+    
+    border: none;
+    color:blue;
+    padding: 15px 38px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px -108px;
+    cursor: pointer;
+    white-space: nowrap;
+    border-radius: 9px ;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-right: 10%;
+    border: 2px solid #0047ba;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button-small {
+    color:blue;
+    border: 2px solid #0047ba;
+   
+  }
+  
+  .button-small:hover {
+    background-color: #0047ba;
+    color: white;
+  }
+.line{
+    border-left: 1px solid white;
+    border-width: thin;
+    height: 12px;
+    margin-right: -5px;
+    margin-left: -59px;
+    margin-top: 20px;
+}
+
+.sec-line{
+    border-left: 1px solid white;
+    border-width: thin;
+    height: 12px;
+    margin-right: -5px;
+    margin-left: 79px;
+    margin-top: 20px;
+}
+.subsecond1{
+    margin-top: 2%;
+}
+.subsecond2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 52%;
+    margin-top: -31%;
+}
+
+
